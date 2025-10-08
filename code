@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Libghiti - Accessoires & Électronique</title>
+  <title>Khalid Accessoire - </title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <h1 class="logo">Libghiti</h1>
+      <h1 class="logo">khalid accessoire</h1>
       <nav>
         <a href="index.html">Accueil</a>
         <a href="product.html">Produits</a>
@@ -23,7 +23,7 @@
   <main>
     <section class="hero container">
       <div>
-        <h2>Bienvenue sur Libghiti</h2>
+        <h2>Bienvenue sur khalid accessoires</h2>
         <p>Votre boutique d’accessoires pour hommes & femmes. Qualité, style et prix abordables 💎</p>
         <a class="btn" href="product.html">Découvrir</a>
       </div>
@@ -37,13 +37,13 @@
       <div class="grid">
         <article class="card">
           <img src="https://images.unsplash.com/photo-1585386959984-a41552205e30?auto=format&fit=crop&w=600&q=60" alt="AirPods">
-          <h4>AirPods 4 Génération</h4>
-          <p class="price">399 DH</p>
+          <h4></h4>
+          <p class="price">149 DH</p>
           <a class="btn" href="product.html">Voir</a>
         </article>
         <article class="card">
           <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=60" alt="Casque">
-          <h4>Casque Bluetooth</h4>
+          <h4></h4>
           <p class="price">249 DH</p>
           <a class="btn" href="product.html">Voir</a>
         </article>
@@ -53,7 +53,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2025 Libghiti — Tous droits réservés.</p>
+      <p>&copy; 2025 khalid accessoires — Tous droits réservés.</p>
     </div>
   </footer>
 
