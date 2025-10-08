@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AirPods 4 Génération - Libghiti</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Libghiti</h1>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <button id="cart-btn" class="cart-btn">Panier (<span id="cart-count">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container product-page">
+    <div class="product-gallery">
+      <img id="main-img" src="https://images.unsplash.com/photo-1580910051075-4b4a1f3d8d7d?auto=format&fit=crop&w=800&q=70" alt="AirPods 4">
+      <div class="thumbs">
+        <img onclick="changeImg(this)" src="https://images.unsplash.com/photo-1580910051075-4b4a1f3d8d7d?auto=format&fit=crop&w=400&q=60" alt="">
+        <img onclick="changeImg(this)" src="https://images.unsplash.com/photo-1585386959984-a41552205e30?auto=format&fit=crop&w=400&q=60" alt="">
+        <img onclick="changeImg(this)" src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=60" alt="">
+      </div>
+    </div>
+
+    <div class="product-info">
+      <h2>AirPods 4 Génération</h2>
+      <p class="price-large">399 DH</p>
+      <p class="short-desc">Écouteurs sans fil – son haute qualité et autonomie longue durée.</p>
+
+      <div class="options">
+        <label>Couleur :
+          <select id="color-select">
+            <option>Blanc</option>
+            <option>Noir</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="qty">
+        <label>Quantité : <input id="qty" type="number" value="1" min="1"></label>
+      </div>
+
+      <button id="add-to-cart" class="btn">Ajouter au panier</button>
+
+      <section class="details">
+        <h4>Détails</h4>
+        <ul>
+          <li>Bluetooth 5.3</li>
+          <li>Temps d'écoute : jusqu’à 8h</li>
+          <li>Charge rapide</li>
+          <li>Garantie 1 an</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Libghiti — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
