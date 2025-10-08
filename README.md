@@ -1,1 +1,1 @@
-# Khalid.accessoire
+[sandbox:/mnt/data/khalid-accessoires.zip]
